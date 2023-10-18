@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/gradiient">
+
+    <include layout="@layout/toolbar"
+        ></include>
+
+    <Button
+        android:id="@+id/loginbutton12"
+        android:layout_width="159dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:elevation="200dp"
+        android:text="Add Vehicle"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="83dp"
+        android:layout_marginVertical="800dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/img_3" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp"
+        android:src="@drawable/img_1" />
+
+
+</RelativeLayout>

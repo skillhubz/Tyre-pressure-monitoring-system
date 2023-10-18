@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiient"
+    tools:context=".MainActivity5">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="VEHICLE DETAILS!"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:textSize="42dp"
+        />
+
+    <Button
+        android:id="@+id/details1"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Type of vehicle"
+        android:textAlignment="viewStart"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/details2"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Model"
+        android:textAlignment="viewStart"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/details3"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Recommended Pressure"
+        android:textAlignment="viewStart"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/details4"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Model"
+        android:textAlignment="viewStart"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/details5"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Odometer reading"
+        android:textAlignment="viewStart"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/letsgo"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/black"
+        android:text="LETS GO!"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</RelativeLayout>

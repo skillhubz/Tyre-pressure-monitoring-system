@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/gradiient">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:text="Select your Vehicle!"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:textSize="42dp"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="450dp"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:id="@+id/loginbutton14"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="CAR"
+        android:layout_alignParentRight="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/loginbutton15"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:text="BIKE"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:elevation="200dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>
